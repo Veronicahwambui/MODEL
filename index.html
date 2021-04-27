@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS BOX MODEL</title>
+        <link rel="stylesheet" href="index.css">
+        <body>
+            <h1 >What is css box model</h1>
+            <p>CSS box model is essentially a box that wraps around every HTML element.
+            <br> It consists of: margins, borders, padding, and the actual content.</p>
+         <hr>
+            <h2 >Properties of css box model</h2> 
+         <ol>
+             <li><strong>content</strong></li>
+            <br> It is the content of the box ,where text and images  appear.
+            <li><strong>padding</strong></li>
+            <br> It clears an area around the content and padding is transparent.
+            <li><strong>Border</strong></li>
+            <br>A border   goes around  the  padding and content.
+            <li><strong>Margin</strong></li>
+             <br>It clears an area  outside the border. The margin  is transparent.
+         </ol>
+         <hr>
+            
+            <h3>Calculation of the dimension</h3>
+            <div class="box">
+                <br> 400px width
+                <br>+20*2px(left+right padding)
+                <br>+2*2px (left +right border)g
+                <br> +0px(left + right margin)
+                <br> total=444px.
+        </div>
+        <hr>
+        <h2>My Box Model</h2>
+               <div id="content">
+              <br>width:400px;
+              <br>padding:2px;
+              <br>margin:20px;
+              
+           </div>
+      
+       
+                                            
+    </head>
+</html>
+       

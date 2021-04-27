@@ -1,0 +1,26 @@
+h1,h2,h3{
+    color:purple
+    }
+    p{
+        color: black;
+    }
+    .box{
+        border:2px solid red;
+        width:300px ;
+        padding:30px ;
+    
+    
+    }
+    #content{
+        width: 400px;
+        padding: 50px;
+        margin: 120px;
+        
+        border: 20px solid blue;
+        background-color: blueviolet;
+    }
+    hr{
+        background-color: darkorange;
+        height: 2px;
+    }
+    
